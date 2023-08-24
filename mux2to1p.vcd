@@ -1,0 +1,86 @@
+$date
+	Thu May 04 15:12:34 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux2to1str_tb $end
+$var wire 1 ! z $end
+$var reg 1 " sel $end
+$var reg 1 # x $end
+$var reg 1 $ y $end
+$scope module uut $end
+$var wire 1 % sel $end
+$var wire 1 & selnot $end
+$var wire 1 ' x $end
+$var wire 1 ( xnandsel $end
+$var wire 1 ) xynand $end
+$var wire 1 * y $end
+$var wire 1 + ynandsel $end
+$var wire 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+0*
+0)
+1(
+0'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1$
+1*
+#10
+1!
+1)
+0(
+0$
+0*
+1#
+1'
+#15
+1$
+1*
+#20
+0!
+0)
+1(
+0&
+0$
+0*
+0#
+0'
+1"
+1%
+#25
+1!
+1)
+0+
+1$
+1*
+#30
+0!
+0)
+1+
+0$
+0*
+1#
+1'
+#35
+1!
+1)
+0+
+1$
+1*
+#40
